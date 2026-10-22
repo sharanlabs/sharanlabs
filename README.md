@@ -1,12 +1,12 @@
 # Sharan Kumar
 
-I build tools for reviewing and evaluating AI-assisted software development.
+I build workflows that turn AI product ideas into specialist-assisted software builds.
 
-My focus is the evidence around an agent's work: explicit requirements, reproducible checks, separate review, and honest limits. I want a maintainer to be able to inspect a result and understand what was actually verified.
+My current system, **claude-os**, brings together slash-command intake, a planning council, specialist agents, execution, and independent review. In the full configured system, `/claude-os <idea>` helps settle what to build; `/autopilot` drives the approved plan with the relevant specialists; `/enhance` proposes improvements to existing projects.
 
 ## Start here: claude-os
 
-[**claude-os-public**](https://github.com/sharanlabs/claude-os-public) is my current public toolkit. It grew out of a larger personal development system and now provides a focused subset you can run without that environment.
+[**claude-os-public**](https://github.com/sharanlabs/claude-os-public) is my current public toolkit. It publishes the runnable evaluation toolkit and selected review skills from the larger system. The full slash-command engine and specialist roster are not bundled yet. [See the product-building workflow and its current availability](https://github.com/sharanlabs/claude-os-public/blob/main/docs/SPECIALIST-WORKFLOW.md).
 
 | Try | What you get |
 |---|---|
